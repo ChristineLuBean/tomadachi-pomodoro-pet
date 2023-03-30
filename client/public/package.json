@@ -1,0 +1,53 @@
+{
+  "name": "virtual-pet-client",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Client side of virtual pet game",
+  "type": "module",
+  "scripts": {
+    "start:frontend": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "eslint 'src/**/*.{js,jsx}' --fix",
+    "format": "prettier 'src/**/*.{js,jsx}' --write",
+    "lint:fix": "eslint --fix .",
+    "lint-and-format": "concurrently \"npm run lint:fix\" \"npm run format\""
+  },
+  "dependencies": {
+    "@inlet/react-pixi": "^6.8.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "pixi.js": "^7.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "redux": "^4.2.1",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
