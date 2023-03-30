@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "prod": "vercel --prod",
-    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
-    "start:backend": "cd server && nodemon server.js",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
     "start:frontend": "cd client && vite",
+    "start:backend": "cd server && npm start",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run start:frontend\"",
+    "dev:backend": "cd server && nodemon server.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "lint:fix": "eslint --fix .",
