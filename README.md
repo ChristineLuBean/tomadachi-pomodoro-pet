@@ -78,7 +78,7 @@ TomaDachi takes it a step further. If you don't finish your Pomodoro sessions on
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Features
+## __Features__
 
 * Pomodoro-based productivity: TomaDachi uses the Pomodoro technique to help you focus on your work by breaking it down into manageable 25-minute intervals.
 
@@ -88,7 +88,7 @@ TomaDachi takes it a step further. If you don't finish your Pomodoro sessions on
 
 * Customizable work intervals and break times: You can adjust the length of your Pomodoro sessions and breaks to fit your work style and preferences.
 
-### Built With
+## __Built With__
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
