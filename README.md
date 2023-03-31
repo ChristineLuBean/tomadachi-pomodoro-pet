@@ -27,7 +27,7 @@
 <div align="center">
 
   <hgroup>
-  <h1>TomaDachi: The Pomodoro Virtual Pal</h1>
+  <h1>TomaDachi: Your Pomodoro Virtual Pal</h1>
     <p>Stay productive, or your pet pays the price!</p>
   </hgroup>
 </div>
