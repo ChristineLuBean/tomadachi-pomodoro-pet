@@ -167,10 +167,13 @@ To install TomaDachi, simply clone this repository and run npm install in both t
   ```
   MONGODB_URI=mongodb://<username>:<password>@<host>:<port>/<database>
   ```
-  5. Replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with the appropriate values for your MongoDB setup. For example:
-    ```
-    MONGODB_URI=mongodb://myuser:mypassword@localhost:27017/mydatabase
-    ```
+  5. Replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with the appropriate values for your MongoDB setup.
+  
+  For example:
+  ```
+  MONGODB_URI=mongodb://myuser:mypassword@localhost:27017/mydatabase
+  ```
+
   Note: you can also use a MongoDB URI string that includes query parameters to specify additional options for your MongoDB connection. For more information, see the [MongoDB URI documentation](https://docs.mongodb.com/manual/reference/connection-string/).
 
   6.In your Node.js code, use the MONGODB_URI environment variable to connect to your MongoDB database. For example, using the mongoose library:
