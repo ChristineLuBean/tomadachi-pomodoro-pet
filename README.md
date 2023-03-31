@@ -1,4 +1,9 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<style>
+  body {
+    text-align: left;
+  }
+</style>
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -30,7 +35,7 @@
   <h1>TomaDachi: The Pomodoro Virtual Pal</h1>
     <p>Stay productive, or your pet pays the price!</p>
   </hgroup>
-
+</div>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
