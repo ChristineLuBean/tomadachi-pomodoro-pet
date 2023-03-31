@@ -143,7 +143,7 @@ To install TomaDachi, simply clone this repository and `run npm install` in both
   MONGODB_URI=<your-mongodb-uri>
   ```
   Make sure to replace <your-mongodb-uri> with the URI for your MongoDB instance.
-  ```6. To start the client and server at the same time, run:
+  6. To start the client and server at the same time, run:
   ```sh
   npm run start
   ```
