@@ -150,9 +150,9 @@ To install TomaDachi, simply clone this repository and run npm install in both t
 5. In the root directory of the project, create a .env file and add the following line (See [Setting up Mongo DB Section](#setting-up-mongodb)):
   ```
   MONGODB_URI=<your-mongodb-uri>
-  Make sure to replace <your-mongodb-uri> with the URI for your MongoDB instance.
   ```
-6. To start the client and server at the same time, run:
+  Make sure to replace <your-mongodb-uri> with the URI for your MongoDB instance.
+  ```6. To start the client and server at the same time, run:
   ```sh
   npm run start
   ```
@@ -164,9 +164,9 @@ To install TomaDachi, simply clone this repository and run npm install in both t
   2. Create a new MongoDB database and collection for your project.
   3. In your project directory, create a new .env file if you haven't already.
   4. Add the following line to your .env file:
-    ```
-    MONGODB_URI=mongodb://<username>:<password>@<host>:<port>/<database>
-    ```
+  ```
+  MONGODB_URI=mongodb://<username>:<password>@<host>:<port>/<database>
+  ```
   5. Replace <username>, <password>, <host>, <port>, and <database> with the appropriate values for your MongoDB setup. For example:
     ```
     MONGODB_URI=mongodb://myuser:mypassword@localhost:27017/mydatabase
