@@ -219,7 +219,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Collect user feedback and use it to improve the TomaDachi virtual pet over time.
 - [ ] Maintain and update the TomaDachi virtual pet regularly to fix bugs, add features, and keep it up to date.
 
-### Version Version 1.0.0
+### Version 1.0.0
 
 - [ ] Basic Pomodoro timer functionality with customizable work and break intervals.
 - [ ] Virtual pet creation and customization, including pet species, appearance, and name.
