@@ -119,9 +119,9 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+npm install npm@latest -g
+```
 
 ### __Installation__
 
@@ -130,9 +130,9 @@ To install TomaDachi, simply clone this repository and run npm install in both t
 #### __Installation Steps__
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/ChristineLuBean/tomadachi-pomodoro-pet.git
-   ```
+  ```sh
+  git clone https://github.com/ChristineLuBean/tomadachi-pomodoro-pet.git
+  ```
 2. Navigate to the project directory:
   ```sh
   cd tomadachi-pomodoro-pet
