@@ -167,7 +167,7 @@ To install TomaDachi, simply clone this repository and run npm install in both t
   ```
   MONGODB_URI=mongodb://<username>:<password>@<host>:<port>/<database>
   ```
-  5. Replace <username>, <password>, <host>, <port>, and <database> with the appropriate values for your MongoDB setup. For example:
+  5. Replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with the appropriate values for your MongoDB setup. For example:
     ```
     MONGODB_URI=mongodb://myuser:mypassword@localhost:27017/mydatabase
     ```
