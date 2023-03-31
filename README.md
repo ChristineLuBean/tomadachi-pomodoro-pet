@@ -88,8 +88,6 @@ TomaDachi takes it a step further. If you don't finish your Pomodoro sessions on
 
 ## __Built With__
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [![React][React]][React-url]
 * [![Redux][Redux]][Redux-url]
 * [![Passport][Passport]][Passport-url]
