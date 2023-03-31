@@ -43,6 +43,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#features">Features/a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -87,6 +88,8 @@ TomaDachi takes it a step further. If you don't finish your Pomodoro sessions on
 * Multiple pet options: You can choose from a variety of virtual pets to take care of, each with its own unique appearance and personality.
 
 * Customizable work intervals and break times: You can adjust the length of your Pomodoro sessions and breaks to fit your work style and preferences.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## __Built With__
 
