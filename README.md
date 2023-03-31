@@ -118,7 +118,7 @@ npm install npm@latest -g
 
 ### __Installation__
 
-To install TomaDachi, simply clone this repository and run npm install in both the client and server directories. Once the application is running, you can create a new account or log in with an existing account. From there, you can start using the Pomodoro technique to take care of your virtual pet.
+To install TomaDachi, simply clone this repository and `run npm install` in both the client and server directories. Once the application is running, you can create a new account or log in with an existing account. From there, you can start using the Pomodoro technique to take care of your virtual pet.
 
 #### __Installation Steps__
 
