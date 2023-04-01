@@ -28,6 +28,9 @@
 
   <hgroup>
   <h1>TomaDachi: Your Pomodoro Virtual Pal</h1>
+    <p align="center">
+<img src="https://raw.githubusercontent.com/ChristineLuBean/tomadachi-pomodoro-pet/main/client/src/assets/tomadachi-logo.png" alt="TomaDachi logo" height="300" width="300">
+</p>
     <p>Stay productive, or your pet pays the price!</p>
   </hgroup>
 </div>
