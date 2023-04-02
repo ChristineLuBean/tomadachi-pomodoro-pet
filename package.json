@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "prod": "vercel --prod",
-    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\" \"npm run sass\"",
     "start:frontend": "cd client && vite",
     "start:backend": "cd server && npm start",
     "dev": "concurrently \"npm run dev:backend\" \"npm run start:frontend\"",
@@ -13,15 +13,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "lint:fix": "eslint --fix .",
-    "lint-and-format": "concurrently \"npm run lint:fix\" \"npm run format\""
-  },
-  "devDependencies": {
-    "concurrently": "^8.0.1",
-    "eslint": "^8.37.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.7",
-    "vercel": "^28.18.3"
+    "lint-and-format": "concurrently \"npm run lint:fix\" \"npm run format\"",
+    "sass": "sass --watch ./client/src/styles/scss:./client/src/styles/css"
   },
   "engines": {
     "node": ">=12.0.0"
@@ -29,5 +22,13 @@
   "workspaces": [
     "client",
     "server"
-  ]
+  ],
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7",
+    "vercel": "^28.18.3"
+  }
 }
