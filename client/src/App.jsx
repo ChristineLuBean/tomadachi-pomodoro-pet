@@ -1,5 +1,5 @@
 import { Stage } from '@inlet/react-pixi'
-import Bunny from "./components/Bunny"
+import Logo from "./components/Logo"
 // import Device from "./components/gameUI/device"
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
 
   return(
     <Stage width={stageWidth} height={stageHeight} options={{ transparent: true }}>
-      <Bunny stageWidth={stageWidth} stageHeight={stageHeight} />
+      <Logo stageWidth={stageWidth} stageHeight={stageHeight} />
       {/* <Device
         width={stageWidth}
         height={stageHeight}
